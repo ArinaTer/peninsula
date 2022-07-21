@@ -1,0 +1,52 @@
+#faq
+    .display-2
+        padding: 4vw 0
+        +r(992)
+            padding: 15vw 0
+
+.accordion-button:not(.collapsed)
+    color: inherit
+    background-color: inherit
+
+.accordion-button::after
+    content: ""
+    width: 1rem
+    height: 1rem
+    background-image: url(../img/icon/plus.svg)
+    background-repeat: no-repeat
+    background-size: 1rem
+    transition: transform .6s ease-in-out
+    transform: rotate(-90deg)
+
+.accordion-button:not(.collapsed)::after
+    background-image: url(../img/icon/plus-or.svg)
+    transition: transform .6s ease-in-out
+    width: 1.5rem
+    height: 1.5rem
+    background-size: 1.5rem
+    transform: rotate(0deg)
+
+.accordion-button
+    box-shadow: inherit !important
+    font-size: calc(.01rem + 1.5vw)
+    +gli
+    +r(992)
+        font-size: calc(1rem + 1.5vw)
+
+.collapsed
+    color: $b
+
+.accordion-button:not(.collapsed)
+    color: $orange
+    +greg
+
+.accordion-body
+    font-size: calc(.01rem + 1.3vw)
+    padding: 2vw 1vw
+    +gli
+    +r(992)
+        font-size: calc(1rem + 1.3vw)
+    ul
+        list-style-type: disc
+        margin: 0 1vw
+        padding: inherit

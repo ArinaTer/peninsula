@@ -1,0 +1,120 @@
+// // Header
+.header-banner
+    height: 100vh
+    width: 100%
+    overflow: hidden
+    background: #000
+    z-index: 1
+
+.header__container
+    position: relative
+    width: 100%
+    height: 100vh
+    background-color: #050713
+
+.header__parallax,
+.header__parallax .layer
+    position: absolute
+    left: -10%
+    width: 120%
+    height: 100vh
+
+    &
+        top: 0
+        left: 0
+        width: 100%
+
+.header__parallax .building,
+.header__parallax .building__bottom
+    position: absolute
+    -o-object-fit: contain
+    object-fit: contain
+    bottom: 0
+
+.header__parallax .building
+    left: 0
+    width: 100%
+    height: 80%
+    +r(992)
+        height: 55%
+    +r(560)
+        height: 50%
+
+    &.left
+        left: -32%
+        height: 70%
+        bottom: 10%
+        +r(1220)
+            left: -35%
+        +r(1024)
+            left: -36%
+        +r(992)
+            height: 50%
+            left: -18%
+        +r(800)
+            left: -20%
+        +r(700)
+            left: -22%
+        +r(650)
+            left: -25%
+        +r(560)
+            height: 45%
+            bottom: 0
+            left: -28%
+
+    &.center
+        left: -15%
+        bottom: 10%
+        +r(992)
+            left: 0
+        +r(560)
+            bottom: 0
+        +r(425)
+            left: 6%
+
+    &.right
+        left: -2%
+        +r(1220)
+            left: 0
+        +r(1024)
+            left: 2%
+        +r(992)
+            left: 15%
+        +r(800)
+            left: 18%
+        +r(650)
+            height: 45%
+            left: 20%
+        +r(425)
+            left: 33%
+
+    &__bottom
+        width: 100%
+
+.header__content
+    position: absolute
+    right: 15vw
+    top: 15vw
+    +r(1240)
+        right: 4vw
+        top: 15vw
+    +r(1024)
+        right: 2vw
+        top: 16vw
+    +r(992)
+        text-align: center
+        top: 10vw
+        left: 0
+        right: 0
+    +r(650)
+        top: 20vw
+    +r(550)
+        top: 50vw
+
+    .display-6
+        text-transform: uppercase
+        font-size: calc(1.175rem + .7vw)
+        +mli
+    .display-1
+        +r(650)
+            font-size: calc(5.375rem + .7vw)

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorRegular.eot');
+    src: url('LeviorRegular.eot?#iefix') format('embedded-opentype'),
+        url('LeviorRegular.woff2') format('woff2'),
+        url('LeviorRegular.woff') format('woff'),
+        url('LeviorRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorBold.eot');
+    src: url('LeviorBold.eot?#iefix') format('embedded-opentype'),
+        url('LeviorBold.woff2') format('woff2'),
+        url('LeviorBold.woff') format('woff'),
+        url('LeviorBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorSemibold.eot');
+    src: url('LeviorSemibold.eot?#iefix') format('embedded-opentype'),
+        url('LeviorSemibold.woff2') format('woff2'),
+        url('LeviorSemibold.woff') format('woff'),
+        url('LeviorSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorSemibold_1.eot');
+    src: url('LeviorSemibold_1.eot?#iefix') format('embedded-opentype'),
+        url('LeviorSemibold_1.woff2') format('woff2'),
+        url('LeviorSemibold_1.woff') format('woff'),
+        url('LeviorSemibold_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorRegular_1.eot');
+    src: url('LeviorRegular_1.eot?#iefix') format('embedded-opentype'),
+        url('LeviorRegular_1.woff2') format('woff2'),
+        url('LeviorRegular_1.woff') format('woff'),
+        url('LeviorRegular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Levior';
+    src: url('LeviorRegular_2.eot');
+    src: url('LeviorRegular_2.eot?#iefix') format('embedded-opentype'),
+        url('LeviorRegular_2.woff2') format('woff2'),
+        url('LeviorRegular_2.woff') format('woff'),
+        url('LeviorRegular_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

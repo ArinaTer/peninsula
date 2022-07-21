@@ -1,0 +1,84 @@
+.form
+    padding-top: 6vw
+.form__group
+    display: flex
+    flex-direction: column
+    max-width: 30%
+    flex-basis: 30%
+    +r(992)
+        max-width: 100%
+        flex-basis: 100%
+
+.input
+    border-bottom: 1px solid rgba(0,0 ,0 ,0.09 )
+    padding-top: 2vw
+    font-size: calc(1rem + .05vw)
+    +r(992)
+        padding-top: 10vw
+    &::placeholder
+        font-size: calc(1rem + .05vw)
+
+.form__btn
+    margin-top: 2vw
+    background-color: $orange
+    color: $w
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: .4vw
+    text-transform: uppercase
+    font-size: calc(.9rem + .08vw)
+    transition: all .5s ease
+    font-weight: 600
+    +r(992)
+        margin-top: 10vw
+        padding: 5vw
+
+    &:hover
+        background-color: $orange
+        color: $w
+
+.form__consultation
+    display: flex
+    padding: 6vw 0
+    +r(992)
+        flex-direction: column
+        padding: 15vw 0
+
+    .form__group
+        max-width: 100%
+        flex-basis: 100%
+        display: flex
+        flex-direction: column
+        
+
+    .input
+        padding-top: 2.5vw
+        +r(992)
+            padding: 6vw 0
+
+        &::placeholder
+            font-size: calc(1rem + .4vw)
+
+    .form__btn
+        margin-top: 2.5vw
+        +r(992)
+            margin-bottom: 8vw
+
+.form__block
+    border: 1px solid rgba(0,0 ,0 ,0.09 )
+    max-width: 50%
+    flex-basis: 50%
+    padding: 2vw 4vw
+    +r(992)
+        max-width: 100%
+        flex-basis: 100%
+
+.form__img
+    max-width: 50%
+    flex-basis: 50%
+    +r(992)
+        max-width: 100%
+        flex-basis: 100%
+    img
+        width: 1000vh

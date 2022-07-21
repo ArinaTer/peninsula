@@ -1,0 +1,52 @@
+// entertainment
+
+.entertainment
+    display: flex
+    +r(992)
+        flex-wrap: wrap
+
+    img
+        width: 1000vh
+        height: 100%
+        object-fit: cover
+
+
+.enjoy
+    background-color: $orange
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    opacity: 0
+    transition: all .3s ease-in-out
+    &:hover
+        opacity: 10
+    &:active
+        opacity: 10
+
+    ul
+        list-style-type: initial
+        color: $w
+        padding: 3.5vw
+        margin: initial
+        +r(992)
+            padding: 6vw 10vw
+
+    li::marker
+        font-size: 2.1vw
+        +r(992)
+            font-size: calc(1.375rem + .3vw)
+
+    .display-6
+        color: $w
+        font-size: calc(1.375rem + .3vw)
+        line-height: 133%
+        +greg
+        +r(1220)
+            font-size: calc(1.275rem + .03vw)
+
+.entertainment__title
+    position: absolute
+    bottom: 1vw
+    left: 3vw
+    z-index: 1

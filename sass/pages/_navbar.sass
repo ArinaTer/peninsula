@@ -1,0 +1,45 @@
+
+.navbar
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+    background-color: rgba(196, 196, 196, 0.05) !important
+
+.nav-link
+    color: $w
+
+.navbar-nav
+    display: flex
+    grid-gap: 3vw
+
+.nav-item
+    text-transform: uppercase
+
+.navbar-light
+    .navbar-toggler
+        border-color: $w !important
+.navbar-dark
+    .navbar-toggler
+        border-color: $b !important
+
+.navbar-light
+    background-color: $bgcol !important
+    .nav-link
+        color: $w !important
+        &:hover
+            color: #b3b3b3 !important
+
+.navbar-dark
+    background-color: $w !important
+    .nav-link
+        color: $b !important
+        &:hover
+            color: #b3b3b3 !important
+
+.navbar-light
+    .navbar-toggler-icon
+        color: $w !important
+        background-image: url(../img/icon/line.svg)
+
+.navbar-dark
+    .navbar-toggler-icon
+        color: $w !important
+        background-image: url(../img/icon/line-black.svg)

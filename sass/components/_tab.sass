@@ -1,0 +1,71 @@
+
+.swiper-tabs-content
+    display: flex
+    overflow: inherit
+    justify-content: space-around
+
+    .swiper-slide
+        flex-shrink: 0
+    .swiper-contetn
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+.tab-slider--nav
+    max-width: 100%
+    flex-basis: 100%
+    display: flex
+    grid-gap: 3vw
+    margin-bottom: 4vw
+    margin-left: 4vw
+    border-bottom: 1px solid #bebebe4f
+    +r(992)
+        margin-left: 0
+        grid-gap: 0
+        justify-content: space-around
+
+.tab-slider--tabs
+    position: relative
+    overflow: hidden
+    grid-gap: 2vw
+
+    button
+        padding: 0 0 10px
+        font-size: calc(1.5rem + .03vw)
+        text-transform: uppercase
+        margin-left: 3svw
+        padding: 0 2vw
+        color: $b
+        +r(550)
+            font-size: calc(1rem + .03vw)
+
+.tab-slider--trigger
+    position: relative
+    z-index: 2
+    cursor: pointer
+    transition: color 250ms ease-in-out
+    &.active
+        color: $orange
+        border-bottom: 2px solid $orange
+        font-weight: 600
+
+.swiper-tabs-buttons
+    position: absolute
+    width: 10vw
+    height: 10vw
+    right: 3vw
+    top: -12vw
+    .swiper-button-next,
+    .swiper-button-prev
+        border: 1px solid $b
+        width: 5vw
+        height: 5vw
+        background-color: $b
+        transform: scale(.5)
+        color: $w
+
+    .swiper-button-disabled
+        background-color: transparent
+        border: 2px solid rgba(0,0 ,0 ,.5 )
+        color: $b8

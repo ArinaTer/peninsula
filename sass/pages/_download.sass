@@ -1,0 +1,36 @@
+// download
+
+.download__brouchure
+    max-width: 60%
+    flex-basis: 60%
+    margin: 11vw auto
+    padding: 2.1vw 2.8vw
+    border: 1px solid rgba(0,0 ,0 ,0.09 )
+    +r(992)
+        max-width: 100%
+        flex-basis: 100%
+        padding: 6vw 4vw
+
+    .display-3
+        font-size: calc(1.225rem + .5vw)
+        text-transform: uppercase
+        +mreg
+        a
+            padding: 0 .2vw
+            color: $orange
+            
+        span
+            +mli
+
+    img
+        max-width: 80%
+        flex-basis: 80%
+        position: absolute
+        top: -3vw
+        right: -15vw
+        transform: rotate(15deg)
+        +r(1024)
+            right: -20vw
+        +r(992)
+            position: initial
+            display: none
